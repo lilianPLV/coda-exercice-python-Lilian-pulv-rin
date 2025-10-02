@@ -152,8 +152,16 @@ def exercice28():
     else:
         print("l'eau est sous forme liquide")
 
-
-
+def exercice29():
+    note=int(input("quelle est votre notre au bac ?  "))
+    if note<10:
+        print("vous etes recalé")
+    elif 20<note>16:
+        print("Vous l'avez avec la mention tres bien")
+    elif 10<note<12:
+        print("Vous l'avez eu sans mention")
+    else:
+        print("vous l'avez avec la mention bien")
 
 
 
@@ -218,6 +226,8 @@ def main():
         exercice27()
     elif choix == "28":
         exercice28()
+    elif choix == "29":
+        exercice29()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
