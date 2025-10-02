@@ -35,6 +35,14 @@ def exercice8():
     deuxieme=int(input("quelle est votre deuxieme chiffre ?"))
     print("Le resultat est :",premier/deuxieme)
 
+def exercice9():
+    chiffre=int(input("quelle chiffre ?"))
+    print("le resultat est :",chiffre**2)
+
+
+
+
+
 
 def main(): 
     # Demande à l'utilisateur quel exercice exécuter 
@@ -55,6 +63,8 @@ def main():
         exercice7()
     elif choix == "8":
         exercice8()
+    elif choix == "9":
+        exercice9()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
