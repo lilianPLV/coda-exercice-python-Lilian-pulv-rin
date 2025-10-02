@@ -25,7 +25,10 @@ def exercice6():
     deuxieme=int(input("quelle est votre deuxieme chiffre ?"))
     print("Le resultat est :",premier-deuxieme)
 
-
+def exercice7():
+    premier=int(input("quelle est la premier chiffre ?"))
+    deuxieme=int(input("quelle est votre deuxieme chiffre ?"))
+    print("Le resultat est :",premier*deuxieme)
 
 
 
@@ -45,6 +48,8 @@ def main():
         exercice5()
     elif choix == "6":
         exercice6()
+    elif choix == "7":
+        exercice7()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
