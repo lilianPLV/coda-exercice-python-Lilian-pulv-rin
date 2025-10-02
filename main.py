@@ -143,7 +143,14 @@ def exercice27():
     else:
         print("vous etes un ado")
 
-
+def exercice28():
+    temperature=int(input("quelle est la temperature de l'eau ?  "))
+    if temperature<0:
+        print("l'eat est glacé")
+    elif temperature>100:
+        print("l'eat est en forme gazeuse")
+    else:
+        print("l'eau est sous forme liquide")
 
 
 
@@ -209,6 +216,8 @@ def main():
         exercice26()
     elif choix == "27":
         exercice27()
+    elif choix == "28":
+        exercice28()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
