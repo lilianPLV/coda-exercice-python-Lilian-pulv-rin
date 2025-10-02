@@ -84,9 +84,16 @@ def exercice20():
     prenom=input("Quelle est ton prenom ?  ")
     print("Tu t'appelle",prenom,"et tu as",age,"ans")
 
+##NIVEAU BASIQUE##
 
-
-
+def exercice21():
+    chiffre=int(input("quelle est le chiifre ?  "))
+    if chiffre==0:
+        print("votre chiffre est nul")
+    elif chiffre<0:
+        print("Votre chiffre est négatif")
+    else:
+        print("Votre chiffre est positif")
 
 
 
@@ -137,6 +144,8 @@ def main():
         exercice19()
     elif choix == "20":
         exercice20()
+    elif choix == "21":
+        exercice21()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
