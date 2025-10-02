@@ -67,7 +67,9 @@ def exercice16():
     cote=int(input("Quelle taille fait le coté ?  "))
     print("L'aire des de :",cote*cote)
 
-
+def exercice17():
+    chiffre=int(input("quelle est le prix a convertir ?"))
+    print("la converson est de : ",chiffre*1.1)
 
 def main(): 
     # Demande à l'utilisateur quel exercice exécuter 
@@ -104,6 +106,8 @@ def main():
         exercice15()
     elif choix == "16":
         exercice16()
+    elif choix == "17":
+        exercice17()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
