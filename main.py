@@ -59,7 +59,9 @@ def exercice14():
     for i in range(1,6):
         print("2 x",i,"=",i*2)
  
-
+def exercice15():
+    cote=int(input("Quelle taille fait le coté ?  "))
+    print("Le resultat est ",cote*4)
 
 
 
@@ -96,6 +98,8 @@ def main():
         exercice13()
     elif choix == "14":
         exercice14()
+    elif choix == "15":
+        exercice15()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
