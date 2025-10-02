@@ -163,7 +163,10 @@ def exercice29():
     else:
         print("vous l'avez avec la mention bien")
 
-
+def exercice30():
+    n=int(input("Quelle est votre nombre ?  "))
+    for i in range(1,n+1):
+        print(i)
 
 
 
@@ -228,6 +231,8 @@ def main():
         exercice28()
     elif choix == "29":
         exercice29()
+    elif choix == "30":
+        exercice30()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
