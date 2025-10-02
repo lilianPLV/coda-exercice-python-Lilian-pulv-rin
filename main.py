@@ -134,7 +134,14 @@ def exercice26():
     else:
         print("Votre chiffre n'est pas divisible par 5")
 
-
+def exercice27():
+    age=int(input("Quelle est votre age ?  "))
+    if age>=18:
+        print("vous etes un adulte")
+    elif age<=12:
+        print("vous etes un enfant")
+    else:
+        print("vous etes un ado")
 
 
 
@@ -200,6 +207,8 @@ def main():
         exercice25()
     elif choix == "26":
         exercice26()
+    elif choix == "27":
+        exercice27()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
