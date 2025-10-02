@@ -180,7 +180,10 @@ def exercice32():
         r+=i
     print(r)
 
-
+def exercice33():
+    n=int(input("quelle est votre nombre ?  "))
+    for i in range(1,n):
+        print(n,"x",i,"=",i*n)
 
 
 
@@ -253,6 +256,8 @@ def main():
         exercice31()
     elif choix == "32":
         exercice32()
+    elif choix == "33":
+        exercice33()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
