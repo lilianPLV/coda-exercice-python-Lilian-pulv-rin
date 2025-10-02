@@ -11,8 +11,9 @@ def exercice3():
     print("deuxieme ligne")
     print("troisieme ligne")
 
-
-
+def exercice4():
+    annee=int(input("Quelle est votre année de naissance ?"))
+    print("Vous avez donc :",2025-annee)
 
 
 
@@ -33,6 +34,8 @@ def main():
         exercice2()
     elif choix == "3":
         exercice3()
+    elif choix == "4":
+        exercice4()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
