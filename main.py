@@ -79,7 +79,10 @@ def exercice19():
     prixHT=int(input("quelle est le prix hors taxe ? "))
     print("le pris TTC est de :",prixHT*1.2)
 
-
+def exercice20():
+    age=int(input("Quelle age as-tu ?  "))
+    prenom=input("Quelle est ton prenom ?  ")
+    print("Tu t'appelle",prenom,"et tu as",age,"ans")
 
 
 
@@ -132,6 +135,8 @@ def main():
         exercice18()
     elif choix == "19":
         exercice19()
+    elif choix == "20":
+        exercice20()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
