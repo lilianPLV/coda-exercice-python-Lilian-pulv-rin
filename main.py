@@ -195,7 +195,20 @@ def exercice35():
     n=int(input("quelle est votre nombre ?  "))
     for i in range(1,n+1):
         if i*i<20:
-            print(i)
+            print(i*i)
+
+def exercice36():
+    n=int(input("Quelle est votre nombre ?  "))
+    for i in range(1,n+1):
+        print("salut")
+
+def exercice37():
+    print("  X")
+    print(" XXX")
+    print("XXXXX")
+
+
+
 
 
 
@@ -274,6 +287,10 @@ def main():
         exercice34()
     elif choix == "35":
         exercice35()
+    elif choix == "36":
+        exercice36()
+    elif choix == "37":
+        exercice37()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
