@@ -223,11 +223,16 @@ def exercice39():
     secret=random.randint(1,10)
     guess=input("pair ou impair :  ")
     if secret%2==0:
-        print("gagné!!!")
+        print("gagné!!!",secret)
     else:
-        print("Perdu sale fou")
+        print("Perdu sale fou",secret)
 
-
+def exercice40():
+    mdp=input("Quelle est ton mdp tkt je ne suis pas indien ?  ")
+    if len(mdp)>=6:
+        print("C'est good")
+    else:
+        print("Pas assez long")
 
 
 
@@ -313,6 +318,8 @@ def main():
         exercice38()
     elif choix == "39":
         exercice39()
+    elif choix == "40":
+        exercice40()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
