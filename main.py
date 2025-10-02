@@ -71,6 +71,24 @@ def exercice17():
     chiffre=int(input("quelle est le prix a convertir ?"))
     print("la converson est de : ",chiffre*1.1)
 
+def exercice18():
+    temps=int(input("quelle est le temps a convertir en seconde ?  "))
+    print("le resultat est de : ",temps*60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main(): 
     # Demande à l'utilisateur quel exercice exécuter 
     choix = input("Entrez le numéro de l'exercice à exécuter : ") 
@@ -108,6 +126,8 @@ def main():
         exercice16()
     elif choix == "17":
         exercice17()
+    elif choix == "18":
+        exercice18()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
