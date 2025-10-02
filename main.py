@@ -39,7 +39,9 @@ def exercice9():
     chiffre=int(input("quelle chiffre ?"))
     print("le resultat est :",chiffre**2)
 
-
+def exercice10():
+    chiffre=int(input("quelle est votre chiffre que vous voulez doublé ?  "))
+    print("le resultat est :",chiffre*2)
 
 
 
@@ -65,6 +67,8 @@ def main():
         exercice8()
     elif choix == "9":
         exercice9()
+    elif choix == "10":
+        exercice10()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
