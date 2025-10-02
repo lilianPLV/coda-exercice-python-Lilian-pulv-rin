@@ -102,7 +102,12 @@ def exercice22():
     else:
         print("mineur")
 
-
+def exercice23():
+    note=int(input("quelle est votre note ?  "))
+    if note>=10:
+        print("Tu passes")
+    else:
+        print("non tu redoubles en sahhhh")
 
 
 def main(): 
@@ -152,6 +157,8 @@ def main():
         exercice21()
     elif choix == "22":
         exercice22()
+    elif choix == "23":
+        exercice23()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
