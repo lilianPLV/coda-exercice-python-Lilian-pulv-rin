@@ -127,6 +127,12 @@ def exercice25():
     else:
         print("les chiffre sont dans l'ordre croissant")
 
+def exercice26():
+    chiffre=int(input("quelle est ton chiffre a vérifié si il est divisible par 5 ?"))
+    if chiffre%5==0:
+        print("votre chiffre est divisible par 5")
+    else:
+        print("Votre chiffre n'est pas divisible par 5")
 
 
 
@@ -192,6 +198,8 @@ def main():
         exercice24()
     elif choix == "25":
         exercice25()
+    elif choix == "26":
+        exercice26()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
