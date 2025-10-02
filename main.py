@@ -119,7 +119,13 @@ def exercice24():
     else:
         print("les deux sont pareil")
 
-
+def exercice25():
+    c1=int(input("1 quelle est votre chiffre ?"))
+    c2=int(input("2 Qelle est votre chiffre"))
+    if c1>c2:
+        print("les chiffres ne sont pas dans l'ordre croissant")
+    else:
+        print("les chiffre sont dans l'ordre croissant")
 
 
 
@@ -184,6 +190,8 @@ def main():
         exercice23()
     elif choix == "24":
         exercice24()
+    elif choix == "25":
+        exercice25()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
