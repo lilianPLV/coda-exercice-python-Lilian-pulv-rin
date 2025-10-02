@@ -222,16 +222,11 @@ def exercice38():
 def exercice39():
     secret=random.randint(1,10)
     guess=input("pair ou impair :  ")
-    if guess=="pair":
-        if secret%2==0:
-            print("gagné!!!")
-        else:
-            print("Perdu sale fou")
+    if secret%2==0:
+        print("gagné!!!")
     else:
-        if secret%2==1:
-            print("Gagné!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        else:
-            print("NUL")
+        print("Perdu sale fou")
+
 
 
 
