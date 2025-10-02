@@ -234,6 +234,9 @@ def exercice40():
     else:
         print("Pas assez long")
 
+##NIVEAU INTERMEDIAIRE##
+
+
 
 
 
