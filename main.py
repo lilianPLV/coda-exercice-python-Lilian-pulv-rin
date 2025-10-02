@@ -61,9 +61,11 @@ def exercice14():
  
 def exercice15():
     cote=int(input("Quelle taille fait le coté ?  "))
-    print("Le resultat est ",cote*4)
+    print("Le périmetre est ",cote*4)
 
-
+def exercice16():
+    cote=int(input("Quelle taille fait le coté ?  "))
+    print("L'aire des de :",cote*cote)
 
 
 
@@ -100,6 +102,8 @@ def main():
         exercice14()
     elif choix == "15":
         exercice15()
+    elif choix == "16":
+        exercice16()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
