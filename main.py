@@ -75,7 +75,9 @@ def exercice18():
     temps=int(input("quelle est le temps a convertir en seconde ?  "))
     print("le resultat est de : ",temps*60)
 
-
+def exercice19():
+    prixHT=int(input("quelle est le prix hors taxe ? "))
+    print("le pris TTC est de :",prixHT*1.2)
 
 
 
@@ -128,6 +130,8 @@ def main():
         exercice17()
     elif choix == "18":
         exercice18()
+    elif choix == "19":
+        exercice19()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
