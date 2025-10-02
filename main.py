@@ -109,6 +109,29 @@ def exercice23():
     else:
         print("non tu redoubles en sahhhh")
 
+def exercice24():
+    chiffre1=int(input("premier chiffre ??  "))
+    chiffre2=int(input("deuxieme chiffre ??")) 
+    if chiffre1>chiffre2:
+        print("le premier plus grand que le deuxieme")
+    elif chiffre2>chiffre1:
+        print("le deuxieme est plus greand que le chiffre 1")
+    else:
+        print("les deux sont pareil")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def main(): 
     # Demande à l'utilisateur quel exercice exécuter 
@@ -159,6 +182,8 @@ def main():
         exercice22()
     elif choix == "23":
         exercice23()
+    elif choix == "24":
+        exercice24()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
