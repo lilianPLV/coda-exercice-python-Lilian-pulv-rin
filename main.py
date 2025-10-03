@@ -302,7 +302,7 @@ def exercice46():
         print("OUI !!!  votre nombre se trouve dans la liste")
     else:
         print("NON !!!  votre nombre n'est pas dans la liste")
-
+######################################
 def exercice47():
     l=[]
     valeur=""
@@ -319,6 +319,32 @@ def exercice47():
                 else:
                     nb=nb
     print("dans cette liste de nombre votre nombre se trouve",nb,"de fois ")
+######################################
+def exercice48():
+    nombre=int(input("Quelle est votre nombre   "))
+    carre_parfait=[]
+    for i in range():
+        if nombre[i]%i==0:
+            carre_parfait.append(i)
+    print("Voici la liste des carré parfait du nombre",nombre," :",carre_parfait)
+######################################
+def exercice49():
+    nb=int(input("donnez moi un nombre   "))
+    l=[]
+    for i in range(1,nb+1):
+        for k in range(1,nb+1):
+            return
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -421,6 +447,8 @@ def main():
         exercice46()
     elif choix == "47":
         exercice47()
+    elif choix == "48":
+        exercice48()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
