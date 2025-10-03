@@ -236,6 +236,38 @@ def exercice40():
 
 ##NIVEAU INTERMEDIAIRE##
 
+def exercice41():
+    tt=0
+    for i in range(1,6):
+        note=int(input("quelle note voulez vous ajouter ?  "))
+        tt+=note
+    print("la moyenne est de",tt/5)
+
+def exercice42():
+    l=[]
+    min=0
+    max=0
+    for i in range(0,5):
+        nombre=int(input("donnez moi 5 nombre et je vous donnerais le min et le max   "))
+        l.append(nombre)
+    for i in range(len(l)):
+            for k in range(len(l)-1):
+                if l[i]>l[k]:
+                    max=l[i]
+                    min=l[k]
+                elif l[i]<l[k]:
+                    max=l[k]
+                    min=l[i]
+    print("le nombre maximun est :",max,"et le nombre minimum est :",min)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -323,6 +355,10 @@ def main():
         exercice39()
     elif choix == "40":
         exercice40()
+    elif choix == "41":
+        exercice41()
+    elif choix == "42":
+        exercice42()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
