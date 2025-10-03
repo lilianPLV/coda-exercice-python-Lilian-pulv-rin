@@ -303,7 +303,19 @@ def exercice46():
     else:
         print("NON !!!  votre nombre n'est pas dans la liste")
 
-
+def exercice47():
+    l=[]
+    valeur=""
+    occurence=int(input("de quelle nombre voulez vous savoir le nombre d'occurence   "))
+    nb=0
+    while valeur!=0:
+        valeur=int(input("donner moi un nombre que vous voulez ajouter et apuyez sur '0' pour quitter cette interface   "))
+        if valeur!=0:
+            l.append(valeur)    
+    for i in range(len(l)):
+        if occurence in l:
+            nb+=1
+    print("dans cette liste de nombre votre nombre se trouve",nb,"de fois ")
 
 
 
@@ -404,6 +416,8 @@ def main():
         exercice45()
     elif choix == "46":
         exercice46()
+    elif choix == "47":
+        exercice47()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
