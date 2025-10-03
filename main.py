@@ -290,7 +290,18 @@ def exercice45():
         s+=i
     print("la somme est :",s)
 
-
+def exercice46():
+    l=[]
+    valeur=""
+    dans_la_l=int(input("donnez moi le nombre dont vous voulez savoir si il se trouve dans la liste   "))
+    while valeur!=0:
+        valeur=int(input("donner moi un nombre que vous voulez ajouter et apuyez sur '0' pour quitter cette interface   "))
+        if valeur!=0:
+            l.append(valeur)
+    if dans_la_l in l:
+        print("OUI !!!  votre nombre se trouve dans la liste")
+    else:
+        print("NON !!!  votre nombre n'est pas dans la liste")
 
 
 
@@ -391,6 +402,8 @@ def main():
         exercice44()
     elif choix == "45":
         exercice45()
+    elif choix == "46":
+        exercice46()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
