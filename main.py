@@ -260,9 +260,19 @@ def exercice42():
                     min=l[i]
     print("le nombre maximun est :",max,"et le nombre minimum est :",min)
 
+def exercice43():
+    mot=input("donner moi un mot sans accents   ")
+    voyelle='aeiouy'
+    tt=0
+    for i in mot:
+        if i in voyelle:
+            tt+=1
+    print("le total de voyelle dans le mot est :",tt)
 
-
-
+def exercice44():
+    mot=input("donnez moi un mot a mettre a l'envers   ")
+    reverse=mot[::-1]
+    print("le mot a l'envers est",reverse)
 
 
 
@@ -359,6 +369,10 @@ def main():
         exercice41()
     elif choix == "42":
         exercice42()
+    elif choix == "43":
+        exercice43()
+    elif choix == "44":
+        exercice44()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
