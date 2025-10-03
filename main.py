@@ -311,10 +311,13 @@ def exercice47():
     while valeur!=0:
         valeur=int(input("donner moi un nombre que vous voulez ajouter et apuyez sur '0' pour quitter cette interface   "))
         if valeur!=0:
-            l.append(valeur)    
-    for i in range(len(l)):
-        if occurence in l:
-            nb+=1
+            l.append(valeur)
+        for i in range(len(str(valeur))):
+            for k in str(valeur):
+                if valeur[k]==occurence:
+                    nb+=nb
+                else:
+                    nb=nb
     print("dans cette liste de nombre votre nombre se trouve",nb,"de fois ")
 
 
