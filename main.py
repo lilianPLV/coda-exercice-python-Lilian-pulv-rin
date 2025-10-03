@@ -274,6 +274,22 @@ def exercice44():
     reverse=mot[::-1]
     print("le mot a l'envers est",reverse)
 
+def exercice45():
+    l=[]
+    s=0
+    valeur=''
+    while valeur!=0:
+        valeur=int(input("donner moi un nombre que vous voulez ajouter et apuyez sur '0' pour quitter cette interface   "))
+        if valeur!=0:
+            l.append(valeur)
+        elif l==[] and valeur==(0):
+            valeur=1
+        else:
+            break
+    for i in l:
+        s+=i
+    print("la somme est :",s)
+
 
 
 
@@ -373,6 +389,8 @@ def main():
         exercice43()
     elif choix == "44":
         exercice44()
+    elif choix == "45":
+        exercice45()
     else: 
         print("Exercice non reconnu.") 
 if __name__ == "__main__": 
